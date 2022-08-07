@@ -1,7 +1,7 @@
 import { FactoryShape } from "./factory/FactoryShape";
 import { Shape } from "./factory/Shape";
 
-console.log("/**************ts_patterns********************/ \n");
+console.log("/**************ts-patterns********************/ \n");
 
 // Circle
 const circle: Shape = FactoryShape.create(FactoryShape.CIRCLE);
@@ -15,4 +15,4 @@ rectangule.draw();
 const square: Shape = FactoryShape.create(FactoryShape.SQUARE);
 square.draw();
 
-console.log("\n/***************ts_patterns*******************/");
+console.log("\n/***************ts-patterns*******************/");
