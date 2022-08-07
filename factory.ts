@@ -1,7 +1,7 @@
 import { FactoryShape } from "./factory/FactoryShape";
 import { Shape } from "./factory/Shape";
 
-console.log("/*test*********************************/ \n");
+console.log("/**********************************/ \n");
 
 // Circle
 const circle: Shape = FactoryShape.create(FactoryShape.CIRCLE);
@@ -15,4 +15,4 @@ rectangule.draw();
 const square: Shape = FactoryShape.create(FactoryShape.SQUARE);
 square.draw();
 
-console.log("\n/*test*********************************/");
+console.log("\n/**********************************/");
